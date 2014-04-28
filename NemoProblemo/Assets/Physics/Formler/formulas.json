@@ -1,0 +1,733 @@
+{
+    "a": {
+        "info": "Måles i m/s^2 ",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "v",
+                                  "t"
+                                  ],
+                     "note": "Bevegelsesformel: Gjelder kun ved konstant a"
+                     },
+                     {
+                     "contains": [
+                                  "s",
+                                  "v",
+                                  "t"
+                                  ],
+                     "note": "Bevegelsesformel: Gjelder kun ved konstant a"
+                     },
+                     {
+                     "contains": [
+                                  "F",
+                                  "m"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  "v",
+                                  "s"
+                                  ],
+                     "note": "Bevegelsesformel: Gjelder kun ved konstant a"
+                     },
+                     {
+                     "contains": [
+                                  "s",
+                                  "t"
+                                  ],
+                     "note": "<#note#>"
+                     }
+                     ]
+    },
+    "W": {
+        "info": "Måles i Joule",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "F",
+                                  "s"
+                                  ],
+                     "note": "phi er vinkelen mellom kraften og veien"
+                     },
+                     {
+                     "contains": [
+                                  "R",
+                                  "s"
+                                  ],
+                     "note": "Wr er friksjonsarbeidet"
+                     },
+                     {
+                     "contains": [
+                                  "Us",
+                                  "L"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  "Us",
+                                  "Is",
+                                  "t"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  "Re",
+                                  "Is",
+                                  "t"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  "Us",
+                                  "Re",
+                                  "t"
+                                  ],
+                     "note": "<#note#>"
+                     }
+                     ]
+    },
+    "b": {
+        "info": "Måles i meter \n n er ordenstallet for lysmaksimumet \n c er lysfarten = 3,00*10^8 m/s",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "v",
+                                  "f"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  "s"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  "d"
+                                  ],
+                     "note": "d er gitterkonstanten. Theta er vinkelen mellom rett frem og lysmaksimumet"
+                     },
+                     {   "contains": [
+                                      "E"
+                                      ],
+                     "note": "h er Plancks konstant = 6,63*10^-34 Js"
+                     },
+                     {   "contains": [
+                                      "f"
+                                      ],
+                     "note": "<#note#>"
+                     },
+                     {   "contains": [
+                             "Tm",
+                                     ],
+                      "note": "a = 2,90*10^-3 Km (kelvinmeter)"
+                    }
+                     ]
+    },
+    "P": {
+        "info": "Måles i watt",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "E",
+                                  "Ek",
+                                  "Ep",
+                                  "t"
+                                  ],
+                     "note": ""
+                     },
+                     {
+                     "contains": [
+                                  "W",
+                                  "t"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  "Us",
+                                  "Is"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  "Re",
+                                  "Is"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  "Us",
+                                  "Re"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {   "contains": [
+                "Vm",
+                "t"
+    ],
+    "note": "Q er varme"
+                    },
+                     {   "contains": [
+                "U"
+    ],
+    "note": "A er areal. Arealet av en kule er 4πr^2"
+                    }
+                     ]
+    },
+    "E": {
+        "info": "Måles i Joule \nc er lysfarten \n = 3,00*10^8 m/s \n h er plancks konstant  \n = 6,63*10^-34 Js",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "P",
+                                  "t"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  "W"
+                                  ],
+                     "note": "Wa er friksjonsarbeidet"
+                     },
+                     {
+                     "contains": [
+                                  "m"
+                                  ],
+                     "note": ""
+                     },
+                     {
+                     "contains": [
+                                  "Ek",
+                                  "Ep"
+                                  ],
+                     "note": "Mekanisk energi er summen av Ek og Ep"
+                     },
+                     {
+                     "contains": [
+                                  "f"
+                                  ],
+                     "note": ""
+                     },
+                     {
+                     "contains": [
+                                  "b"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [""
+                                  ],
+                     "note": "Energinivåene i hydrogenatomet \nB er Bohrs konstant = 2,18*10^-18 J"
+                     }
+                     ]
+    },
+    "v": {
+        "info": "Måles i strekning per tid \n m/s",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "s",
+                                  "t"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  "a",
+                                  "t"
+                                  ],
+                     "note": "Bevegelsesformel: Gjelder kun ved konstant a"
+                     },
+                     {
+                     "contains": [
+                                  "a",
+                                  "s"
+                                  ],
+                     "note": "Bevegelsesformel: Gjelder kun ved konstant a"
+                     },
+                     {
+                     "contains": [
+                                  "m",
+                                  "Ek"
+                                  ],
+                     "note": ""
+                     },
+                     {
+                     "contains": [
+                                  "f",
+                                  "b"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  "b",
+                                  "Tm"
+                                  ],
+                     "note": "T er perioden"
+                     },
+                     {
+                     "contains": [
+                                  "Tm",
+                                  "m"
+                                  ],
+                     "note": "Molekylfart i en gass \nk er Boltzmanns konstant = 1,38*10^-23 J/K"
+                     },
+                     {
+                     "contains": [
+                                  "b",
+                                  "c"
+                                  ],
+                     "note": "c er lysfarten = 3,00*10^8 m/s"
+                     },
+                     {
+                     "contains": [
+                                  "b",
+                                  "c"
+                                  ],
+                     "note": "c er lysfarten = 3,00*10^8 m/s"
+                     },
+                     {
+                     "contains": [
+                                  "H",
+                                  "r"
+                                  ],
+                     "note": "H er Hubbles konstant = (21,7+-1,0)km/s per million lysår. r er avstanden"
+                     },
+                     {   "contains": [
+                "s",
+                "t"
+    ],
+    "note": ""
+                    }
+                     ]
+    },
+    "f": {
+        "info": "Måles i Hertz",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "v",
+                                  "b"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  "b"
+                                  ],
+                     "note": "c er lysfarten = 3,00*10^8 m/s"
+                     },
+                     {
+                     "contains": [
+                                  "<#contains 1#>"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {   "contains": [
+                "E"
+    ],
+    "note": "h er Plancks konstant = 6,63*10^-34 Js"
+                    }
+                     ]
+    },
+    "R": {
+        "info": "Måles i Newton",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "Fs"
+                                  ],
+                     "note": "my er friksjonstallet. N er normalkraften"
+                     },
+                     {
+                     "contains": [
+                                  "W",
+                                  "s"
+                                  ],
+                     "note": "Wr er friksjonsarbeidet"
+                     },
+                     {
+                     "contains": [
+                                  "v"
+                                  ],
+                     "note": "Generell formel for luftmotstand \nk er objektets friksjonskonstant"
+                     }
+                     ]
+        },
+    "Ek": {
+        "info": "Måles i Joule \ng=tyngdeakselerasjonen \n h=høyde",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "m",
+                                  "v"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  "k",
+                                  "Tm"
+                                  ],
+                     "note": "Gj.snittlig kinetisk energi molekyler \nk er Boltzmanns konstant = 1,38*10^-23 J/K"
+                     },
+                     {
+                     "contains": [
+                                  "m",
+                                  "v"
+                                  ],
+                     "note": "Gjelder Fritt fall, mekanisk energi er konstant"
+                     }
+                     ]
+    },
+    "L": {
+        "info": "Måles i Couloumb",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "W",
+                                  "Us"
+                                  ],
+                     "note": ""
+                     },
+                     {
+                     "contains": [
+                                  "<#contains 1#>"
+                                  ],
+                     "note": "elektronet (-e) har ladningen =-1,60*10^-19 C"
+                     },
+                     {
+                     "contains": [
+                                  "Is",
+                                  "t"
+                                  ],
+                     "note": "<#note#>"
+                     }
+                     ]
+    },
+    "m": {
+        "info": "Måles i kg",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "F",
+                                  "a"
+                                  ],
+                     "note": "Newtons 1. lov"
+                     },
+                     {
+                     "contains": [
+                                  "Ek",
+                                  "v"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  "Ep"
+                                  ],
+                     "note": "g = tyngdeakselerasjonen, h er høyde"
+                     },
+                     {
+                     "contains": [
+                                  ""
+                                  ],
+                     "note": "p er massetetthet. V er volum"
+                     }
+                     ]
+    },
+    "Ep": {
+        "info": "Måles i Joule \ng=tyngdeakselerasjonen \n h=høyde",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "m"
+                                  ],
+                     "note": ""
+                     },
+                     {
+                     "contains": [
+                                  "v",
+                                  "m"
+                                  ],
+                     "note": "Gjelder Fritt fall, mekanisk energi er konstant"
+                     }
+                     ]
+    },
+    "Re": {
+        "info": "Måles i Ohm",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "Us",
+                                  "Is"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  ""
+                                  ],
+                     "note": "l = lengden, A = tverrsnittsarealet \n p er restistiviteten til materialet"
+                     }
+                     ]
+    },
+    "Us": {
+        "info": "Måles i Volt",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "W",
+                                  "L"
+                                  ],
+                     "note": "Defenisjonen på spenning: Arbeid delt på ladning"
+                     },
+                     {
+                     "contains": [
+                                  "Re",
+                                  "Is"
+                                  ],
+                     "note": "Ohms lov"
+                     },
+                     {
+                     "contains": [
+                                  "P",
+                                  "Is"
+                                  ],
+                     "note": "<#note#>"
+                     }
+                     ]
+    },
+    "s": {
+        "info": "Måles i meter",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "v",
+                                  "t"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  "v",
+                                  "t"
+                                  ],
+                     "note": "Bevegelsesformel: Gjelder kun ved konstant a"
+                     },
+                     {
+                     "contains": [
+                                  "v",
+                                  "t",
+                                  "a"
+                                  ],
+                     "note": "Bevegelsesformel: Gjelder kun ved konstant a"
+                     },
+                     {
+                     "contains": [
+                                  "v",
+                                  "a"
+                                  ],
+                     "note": "Bevegelsesformel: Gjelder kun ved konstant a"
+                     }
+                     ]
+    },
+    "Is": {
+        "info": "Måles i ampere",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "L",
+                                  "t"
+                                  ],
+                     "note": "Definisjonen på strøm: Ladning delt på tid"
+                     },
+                     {
+                     "contains": [
+                                  "Us",
+                                  "Re"
+                                  ],
+                     "note": ""
+                     },
+                     {
+                     "contains": [
+                                  "P",
+                                  "Us"
+                                  ],
+                     "note": "<#note#>"
+                     }
+                     ]
+    },
+    "Tm": {
+        "info": "Måles i °Kelvin (eller °Celsius)",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "b"
+                                  ],
+                     "note": "a = 2,90*10^-3 Km (Kelvinmeter)"
+                     },
+                     {
+                     "contains": [
+                                  "U"
+                                  ],
+                     "note": "sigma = 5,67*10^-8   W/(m^2K^4)"
+                     },
+                     {
+                     "contains": [
+                                  "P"
+                                  ],
+                     "note": "sigma = 5,67*10^-8   W/(m^2K^4)"
+                     }
+                     ]
+    },
+    "rho": {
+        "info": "Måles i kg/m^3",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "m",
+                                  "V"
+                                  ],
+                     "note": "V er volum"
+                     }
+                     ]
+    },
+    "t": {
+        "info": "Måles i sekunder",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "s",
+                                  "v"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  "a",
+                                  "v"
+                                  ],
+                     "note": "Bevegelsesformel: Gjelder kun ved konstant a"
+                     },
+                     {
+                     "contains": [
+                                  "s",
+                                  "v"
+                                  ],
+                     "note": "Bevegelsesformel: Gjelder kun ved konstant a"
+                     },
+                     {
+                     "contains": [
+                                  "W",
+                                  "P"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  "E",
+                                  "P"
+                                  ],
+                     "note": "<#note#>"
+                     },
+                     {
+                     "contains": [
+                                  "L",
+                                  "Is"
+                                  ],
+                     "note": "Q = spenning, I = Strøm"
+                     },
+                     {
+                     "contains": [
+                                  "Vm",
+                                  "P"
+                                  ],
+                     "note": "Q = varme, P = Effekt"
+                     }
+                     ]
+    },
+    "pp": {
+        "info": "Måles i N/m^2",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "Fs",
+                                  "A"
+                                  ],
+                     "note": "<#note#>"
+                     }
+                     ]
+    },
+    "U": {
+        "info": "Måles i W/m^2",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "Tm"
+                                  ],
+                     "note": "sigma = 5,67*10^-8   W/(m^2K^4)"
+                     },
+                     {
+                     "contains": [
+                                  "P",
+                                  "A"
+                                  ],
+                     "note": "A er areal. Areal av en kule er 4πr^2"
+                     }
+                     ]
+    },
+    "Fs": {
+        "info": "Måles i Newton",
+        "formulas": [
+                     {
+                     "contains": [],
+                     "note": "Newtons 1. lov"
+                     },
+                     {
+                     "contains": [
+                                  "m",
+                                  "a"
+                                  ],
+                     "note": "Newtons 2. lov"
+                     },
+                     {
+                     "contains": [],
+                     "note": "Newtons 3. lov"
+                     }
+                     ]
+    },
+    "Vm": {
+        "info": "Symbolet for varme er Q, \n Måles i Joule. \n Spesifikk smeltevarme/fordampningsvarme er gitt ved q",
+        "formulas": [
+                     {
+                     "contains": [
+                                  "W"
+                                  ],
+                     "note": "Termofysikkens første lov"
+                     },
+                     {
+                     "contains": [
+                                  "m"
+                                  ],
+                     "note": "Spesifikk fordamningsvarme/fordampningsvarme"
+                     },
+                     {
+                     "contains": [
+                                  "m"
+                                  ],
+                     "note": "<#note#>"
+                     }
+                     ]
+    }
+}
